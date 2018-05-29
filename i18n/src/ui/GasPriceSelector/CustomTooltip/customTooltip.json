@@ -1,0 +1,6 @@
+[
+  {
+    "id": "ui.gasPriceSelector.customTooltip.transactions",
+    "defaultMessage": "{number} {number, plural, one {transaction} other {transactions}} with gas price set from {minPrice} to {maxPrice}"
+  }
+]

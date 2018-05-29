@@ -1,0 +1,10 @@
+[
+  {
+    "id": "transfer.advanced.data.hint",
+    "defaultMessage": "the data to pass through with the transaction"
+  },
+  {
+    "id": "transfer.advanced.data.label",
+    "defaultMessage": "transaction data"
+  }
+]

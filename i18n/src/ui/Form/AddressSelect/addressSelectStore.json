@@ -1,0 +1,22 @@
+[
+  {
+    "id": "addressSelect.fromRegistry",
+    "defaultMessage": "{name} (from registry)"
+  },
+  {
+    "id": "addressSelect.fromEmail",
+    "defaultMessage": "Verified using email {email}"
+  },
+  {
+    "id": "addressSelect.labels.accounts",
+    "defaultMessage": "accounts"
+  },
+  {
+    "id": "addressSelect.labels.contacts",
+    "defaultMessage": "contacts"
+  },
+  {
+    "id": "addressSelect.labels.contracts",
+    "defaultMessage": "contracts"
+  }
+]

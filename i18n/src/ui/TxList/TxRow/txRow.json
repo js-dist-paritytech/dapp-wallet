@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ui.txList.txRow.canceled",
+    "defaultMessage": "Canceled"
+  },
+  {
+    "id": "ui.txList.txRow.editing",
+    "defaultMessage": "Editing"
+  },
+  {
+    "id": "ui.txList.txRow.submitting",
+    "defaultMessage": "Pending"
+  },
+  {
+    "id": "ui.txList.txRow.scheduled",
+    "defaultMessage": "Scheduled"
+  },
+  {
+    "id": "ui.txList.txRow.edit",
+    "defaultMessage": "Edit"
+  },
+  {
+    "id": "ui.txList.txRow.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "ui.txList.txRow.cancelWarning",
+    "defaultMessage": "Warning: Editing or Canceling the transaction may not succeed!"
+  },
+  {
+    "id": "ui.txList.txRow.verify.cancelEditCancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "ui.txList.txRow.verify.cancelEditEdit",
+    "defaultMessage": "Edit"
+  },
+  {
+    "id": "ui.txList.txRow.verify",
+    "defaultMessage": "Are you sure?"
+  },
+  {
+    "id": "ui.txList.txRow.verify.nevermind",
+    "defaultMessage": "Nevermind"
+  },
+  {
+    "id": "ui.txList.txRow.pendingStatus.time",
+    "defaultMessage": "{time} left"
+  },
+  {
+    "id": "ui.txList.txRow.pendingStatus.blocksLeft",
+    "defaultMessage": "{blockNumber} blocks left"
+  }
+]

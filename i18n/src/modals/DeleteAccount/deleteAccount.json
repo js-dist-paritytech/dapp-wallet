@@ -1,0 +1,18 @@
+[
+  {
+    "id": "deleteAccount.title",
+    "defaultMessage": "confirm removal"
+  },
+  {
+    "id": "deleteAccount.question",
+    "defaultMessage": "Are you sure you want to permanently delete the following account?"
+  },
+  {
+    "id": "deleteAccount.password.hint",
+    "defaultMessage": "provide the account password to confirm the account deletion"
+  },
+  {
+    "id": "deleteAccount.password.label",
+    "defaultMessage": "account password"
+  }
+]

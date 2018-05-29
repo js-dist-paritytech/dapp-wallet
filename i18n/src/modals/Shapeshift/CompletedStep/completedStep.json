@@ -1,0 +1,10 @@
+[
+  {
+    "id": "shapeshift.completedStep.completed",
+    "defaultMessage": "{shapeshiftLink} has completed the funds exchange."
+  },
+  {
+    "id": "shapeshift.completedStep.parityFunds",
+    "defaultMessage": "The change in funds will be reflected in your Parity account shortly."
+  }
+]

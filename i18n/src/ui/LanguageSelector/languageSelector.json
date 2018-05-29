@@ -1,0 +1,10 @@
+[
+  {
+    "id": "settings.parity.languages.hint",
+    "defaultMessage": "the language this interface is displayed with"
+  },
+  {
+    "id": "settings.parity.languages.label",
+    "defaultMessage": "UI language"
+  }
+]

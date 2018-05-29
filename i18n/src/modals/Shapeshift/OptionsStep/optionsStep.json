@@ -1,0 +1,30 @@
+[
+  {
+    "id": "shapeshift.warning.noPrice",
+    "defaultMessage": "No price match was found for the selected type"
+  },
+  {
+    "id": "shapeshift.optionsStep.noPairs",
+    "defaultMessage": "There are currently no exchange pairs/coins available to fund with."
+  },
+  {
+    "id": "shapeshift.optionsStep.typeSelect.hint",
+    "defaultMessage": "the type of crypto conversion to do"
+  },
+  {
+    "id": "shapeshift.optionsStep.typeSelect.label",
+    "defaultMessage": "fund account from"
+  },
+  {
+    "id": "shapeshift.optionsStep.returnAddr.hint",
+    "defaultMessage": "the return address for send failures"
+  },
+  {
+    "id": "shapeshift.optionsStep.returnAddr.label",
+    "defaultMessage": "(optional) {coinSymbol} return address"
+  },
+  {
+    "id": "shapeshift.optionsStep.terms.label",
+    "defaultMessage": "I understand that ShapeShift.io is a 3rd-party service and by using the service any transfer of information and/or funds is completely out of the control of Parity"
+  }
+]

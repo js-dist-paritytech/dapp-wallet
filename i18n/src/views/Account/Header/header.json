@@ -1,0 +1,10 @@
+[
+  {
+    "id": "account.header.outgoingTransactions",
+    "defaultMessage": "{count} outgoing transactions"
+  },
+  {
+    "id": "account.header.uuid",
+    "defaultMessage": "uuid: {uuid}"
+  }
+]

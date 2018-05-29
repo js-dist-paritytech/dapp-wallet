@@ -1,0 +1,14 @@
+[
+  {
+    "id": "shapeshift.awaitingDepositStep.awaitingConfirmation",
+    "defaultMessage": "Awaiting confirmation of the deposit address for your {typeSymbol} funds exchange"
+  },
+  {
+    "id": "shapeshift.awaitingDepositStep.awaitingDeposit",
+    "defaultMessage": "{shapeshiftLink} is awaiting a {typeSymbol} deposit. Send the funds from your {typeSymbol} network client to -"
+  },
+  {
+    "id": "shapeshift.awaitingDepositStep.minimumMaximum",
+    "defaultMessage": "{minimum} minimum, {maximum} maximum"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "id": "shapeshift.errorStep.info",
+    "defaultMessage": "The funds shifting via {shapeshiftLink} failed with a fatal error on the exchange. The error message received from the exchange is as follow:"
+  }
+]

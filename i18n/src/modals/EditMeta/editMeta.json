@@ -1,0 +1,34 @@
+[
+  {
+    "id": "editMeta.title",
+    "defaultMessage": "edit metadata"
+  },
+  {
+    "id": "editMeta.name.label",
+    "defaultMessage": "name"
+  },
+  {
+    "id": "editMeta.description.hint",
+    "defaultMessage": "description for this address"
+  },
+  {
+    "id": "editMeta.description.label",
+    "defaultMessage": "address description"
+  },
+  {
+    "id": "editMeta.tags.hint",
+    "defaultMessage": "press <Enter> to add a tag"
+  },
+  {
+    "id": "editMeta.tags.label",
+    "defaultMessage": "(optional) tags"
+  },
+  {
+    "id": "editMeta.passwordHint.hint",
+    "defaultMessage": "a hint to allow password recovery"
+  },
+  {
+    "id": "editMeta.passwordHint.label",
+    "defaultMessage": "(optional) password hint"
+  }
+]

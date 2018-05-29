@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ui.tooltips.button.skip",
+    "defaultMessage": "Skip"
+  },
+  {
+    "id": "ui.tooltips.button.next",
+    "defaultMessage": "Next"
+  },
+  {
+    "id": "ui.tooltips.button.done",
+    "defaultMessage": "Done"
+  }
+]

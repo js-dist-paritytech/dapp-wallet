@@ -1,0 +1,22 @@
+[
+  {
+    "id": "transfer.warning.wallet_spent_limit",
+    "defaultMessage": "This transaction value is above the remaining daily limit. It will need to be confirmed by other owners."
+  },
+  {
+    "id": "transfer.buttons.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "transfer.buttons.next",
+    "defaultMessage": "Next"
+  },
+  {
+    "id": "transfer.buttons.back",
+    "defaultMessage": "Back"
+  },
+  {
+    "id": "transfer.buttons.send",
+    "defaultMessage": "Send"
+  }
+]

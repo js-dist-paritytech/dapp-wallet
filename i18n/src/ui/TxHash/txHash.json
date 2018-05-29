@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ui.txHash.posted",
+    "defaultMessage": "The transaction has been posted to the network with a hash of {hashLink}"
+  },
+  {
+    "id": "ui.txHash.oog",
+    "defaultMessage": "The transaction might have gone out of gas. Try again with more gas."
+  },
+  {
+    "id": "ui.txHash.waiting",
+    "defaultMessage": "waiting for confirmations"
+  },
+  {
+    "id": "ui.txHash.confirmations",
+    "defaultMessage": "{count} {value, plural, one {confirmation} other {confirmations}}"
+  }
+]

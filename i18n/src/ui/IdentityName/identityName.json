@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ui.identityName.unnamed",
+    "defaultMessage": "UNNAMED"
+  },
+  {
+    "id": "ui.identityName.null",
+    "defaultMessage": "NULL"
+  }
+]

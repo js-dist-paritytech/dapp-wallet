@@ -1,0 +1,6 @@
+[
+  {
+    "id": "ui.copyToClipboard.copied",
+    "defaultMessage": "copied {data} to clipboard"
+  }
+]

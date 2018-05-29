@@ -1,0 +1,6 @@
+[
+  {
+    "id": "shapeshift.price.minMax",
+    "defaultMessage": "({minimum} minimum, {maximum} maximum)"
+  }
+]

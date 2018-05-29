@@ -1,0 +1,10 @@
+[
+  {
+    "id": "createWallet.type.watch.label",
+    "defaultMessage": "Watch a wallet"
+  },
+  {
+    "id": "createWallet.type.watch.description",
+    "defaultMessage": "Add an existing multisig wallet to your accounts"
+  }
+]

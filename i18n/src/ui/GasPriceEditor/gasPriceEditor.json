@@ -1,0 +1,46 @@
+[
+  {
+    "id": "txEditor.condition.none",
+    "defaultMessage": "No conditions"
+  },
+  {
+    "id": "txEditor.condition.blocknumber",
+    "defaultMessage": "Send after BlockNumber"
+  },
+  {
+    "id": "txEditor.condition.datetime",
+    "defaultMessage": "Send after Date & Time"
+  },
+  {
+    "id": "txEditor.condition.label",
+    "defaultMessage": "Condition where transaction activates"
+  },
+  {
+    "id": "txEditor.gas.info",
+    "defaultMessage": "You can choose the gas price based on the distribution of recent included transaction gas prices. The lower the gas price is, the cheaper the transaction will be. The higher the gas price is, the faster it should get mined by the network."
+  },
+  {
+    "id": "txEditor.condition.block.hint",
+    "defaultMessage": "The minimum block to send from"
+  },
+  {
+    "id": "txEditor.condition.block.label",
+    "defaultMessage": "Transaction send block"
+  },
+  {
+    "id": "txEditor.condition.date.hint",
+    "defaultMessage": "The minimum date to send from"
+  },
+  {
+    "id": "txEditor.condition.date.label",
+    "defaultMessage": "Transaction send date"
+  },
+  {
+    "id": "txEditor.condition.time.hint",
+    "defaultMessage": "The minimum time to send from"
+  },
+  {
+    "id": "txEditor.condition.time.label",
+    "defaultMessage": "Transaction send time"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "account.transactions.title",
+    "defaultMessage": "transactions"
+  },
+  {
+    "id": "account.transactions.poweredBy",
+    "defaultMessage": "Transaction list powered by {etherscan}"
+  }
+]

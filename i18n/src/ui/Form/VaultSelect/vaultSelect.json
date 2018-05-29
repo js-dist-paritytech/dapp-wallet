@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ui.vaultSelect.hint",
+    "defaultMessage": "the vault this account is attached to"
+  },
+  {
+    "id": "ui.vaultSelect.label",
+    "defaultMessage": "associated vault"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "transfer.details.amount.label",
+    "defaultMessage": "amount to transfer (in {tag})"
+  },
+  {
+    "id": "transfer.details.amount.hint",
+    "defaultMessage": "the amount to transfer to the recipient"
+  },
+  {
+    "id": "transfer.details.fullBalance.label",
+    "defaultMessage": "full account balance"
+  },
+  {
+    "id": "transfer.details.total.label",
+    "defaultMessage": "total transaction amount"
+  },
+  {
+    "id": "transfer.details.advanced.label",
+    "defaultMessage": "advanced sending options"
+  },
+  {
+    "id": "transfer.details.sender.label",
+    "defaultMessage": "sender address"
+  },
+  {
+    "id": "transfer.details.sender.hint",
+    "defaultMessage": "the sender address"
+  },
+  {
+    "id": "transfer.details.recipient.label",
+    "defaultMessage": "recipient address"
+  },
+  {
+    "id": "transfer.details.recipient.hint",
+    "defaultMessage": "the recipient address"
+  }
+]

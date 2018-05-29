@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ui.actionbar.sort.typeDefault",
+    "defaultMessage": "Default"
+  },
+  {
+    "id": "ui.actionbar.sort.typeTags",
+    "defaultMessage": "Sort by tags"
+  },
+  {
+    "id": "ui.actionbar.sort.typeName",
+    "defaultMessage": "Sort by name"
+  },
+  {
+    "id": "ui.actionbar.sort.typeEth",
+    "defaultMessage": "Sort by ETH"
+  },
+  {
+    "id": "ui.actionbar.sort.sortBy",
+    "defaultMessage": "Sort by {label}"
+  }
+]

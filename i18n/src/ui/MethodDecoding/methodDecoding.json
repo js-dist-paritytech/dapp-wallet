@@ -1,0 +1,78 @@
+[
+  {
+    "id": "ui.methodDecoding.gasValues",
+    "defaultMessage": "{gas} gas ({gasPrice}M/{tag})"
+  },
+  {
+    "id": "ui.methodDecoding.gasUsed",
+    "defaultMessage": "({gas} gas used)"
+  },
+  {
+    "id": "ui.methodDecoding.txValues",
+    "defaultMessage": "{historic, select, true {Provided} false {Provides}} {gasProvided}{gasUsed} for a total transaction value of {totalEthValue}"
+  },
+  {
+    "id": "ui.methodDecoding.condition.block",
+    "defaultMessage": "{historic, select, true {Will be submitted} false {To be submitted}} at block {blockNumber}"
+  },
+  {
+    "id": "ui.methodDecoding.condition.time",
+    "defaultMessage": "{historic, select, true {Will be submitted} false {To be submitted}} {timestamp}"
+  },
+  {
+    "id": "ui.methodDecoding.input.input",
+    "defaultMessage": "input"
+  },
+  {
+    "id": "ui.methodDecoding.input.data",
+    "defaultMessage": "data"
+  },
+  {
+    "id": "ui.methodDecoding.input.withInput",
+    "defaultMessage": "with the {inputDesc} {inputValue}"
+  },
+  {
+    "id": "ui.methodDecoding.token.transfer",
+    "defaultMessage": "{historic, select, true {Transferred} false {Will transfer}} {value} to {address}"
+  },
+  {
+    "id": "ui.methodDecoding.deploy.willDeploy",
+    "defaultMessage": "Will deploy a contract"
+  },
+  {
+    "id": "ui.methodDecoding.deploy.withValue",
+    "defaultMessage": ", sending {value}"
+  },
+  {
+    "id": "ui.methodDecoding.deploy.address",
+    "defaultMessage": "Deployed a contract at address"
+  },
+  {
+    "id": "ui.methodDecoding.deploy.params",
+    "defaultMessage": "with the following parameters:"
+  },
+  {
+    "id": "ui.methodDecoding.receive.contract",
+    "defaultMessage": "the contract"
+  },
+  {
+    "id": "ui.methodDecoding.receive.info",
+    "defaultMessage": "{historic, select, true {Received} false {Will receive}} {valueEth} from {aContract}{address}"
+  },
+  {
+    "id": "ui.methodDecoding.transfer.contract",
+    "defaultMessage": "the contract"
+  },
+  {
+    "id": "ui.methodDecoding.transfer.info",
+    "defaultMessage": "{historic, select, true {Transferred} false {Will transfer}} {valueEth} to {aContract}{address}"
+  },
+  {
+    "id": "ui.methodDecoding.signature.info",
+    "defaultMessage": "{historic, select, true {Executed} false {Will execute}} the {method} function on the contract {address} {showEth, select, true {transferring {ethValue}} false {}} {showInputs, select, false {} true {passing the following {inputLength, plural, one {parameter} other {parameters}}}}"
+  },
+  {
+    "id": "ui.methodDecoding.unknown.info",
+    "defaultMessage": "{historic, select, true {Executed} false {Will execute}} the {method} on the contract {address} transferring {ethValue}."
+  }
+]

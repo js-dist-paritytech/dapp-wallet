@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ui.confirmDialog.no",
+    "defaultMessage": "no"
+  },
+  {
+    "id": "ui.confirmDialog.yes",
+    "defaultMessage": "yes"
+  }
+]

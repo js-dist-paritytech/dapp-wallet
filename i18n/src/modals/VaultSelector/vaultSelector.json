@@ -1,0 +1,10 @@
+[
+  {
+    "id": "vaults.selector.title",
+    "defaultMessage": "Select Account Vault"
+  },
+  {
+    "id": "vaults.selector.noneAvailable",
+    "defaultMessage": "There are currently no vaults opened and available for selection. Create and open some first before attempting to select a vault for an account move."
+  }
+]

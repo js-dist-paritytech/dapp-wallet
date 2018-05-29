@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ui.actionbar.import.button.import",
+    "defaultMessage": "import"
+  },
+  {
+    "id": "ui.actionbar.import.step.select",
+    "defaultMessage": "select a file"
+  },
+  {
+    "id": "ui.actionbar.import.step.error",
+    "defaultMessage": "error"
+  },
+  {
+    "id": "ui.actionbar.import.step.validate",
+    "defaultMessage": "validate"
+  },
+  {
+    "id": "ui.actionbar.import.button.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "ui.actionbar.import.button.confirm",
+    "defaultMessage": "Confirm"
+  },
+  {
+    "id": "ui.actionbar.import.error",
+    "defaultMessage": "An error occured: {errorText}"
+  },
+  {
+    "id": "ui.actionbar.import.confirm",
+    "defaultMessage": "Confirm that this is what was intended to import."
+  },
+  {
+    "id": "ui.actionbar.import.title",
+    "defaultMessage": "Import from a file"
+  }
+]

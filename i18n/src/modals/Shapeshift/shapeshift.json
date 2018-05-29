@@ -1,0 +1,34 @@
+[
+  {
+    "id": "shapeshift.title.details",
+    "defaultMessage": "details"
+  },
+  {
+    "id": "shapeshift.title.deposit",
+    "defaultMessage": "awaiting deposit"
+  },
+  {
+    "id": "shapeshift.title.exchange",
+    "defaultMessage": "awaiting exchange"
+  },
+  {
+    "id": "shapeshift.title.completed",
+    "defaultMessage": "completed"
+  },
+  {
+    "id": "shapeshift.title.error",
+    "defaultMessage": "exchange failed"
+  },
+  {
+    "id": "shapeshift.button.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "shapeshift.button.shift",
+    "defaultMessage": "Shift Funds"
+  },
+  {
+    "id": "shapeshift.button.done",
+    "defaultMessage": "Close"
+  }
+]

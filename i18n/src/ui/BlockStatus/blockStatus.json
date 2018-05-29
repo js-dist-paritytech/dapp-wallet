@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ui.blockStatus.bestBlock",
+    "defaultMessage": "{blockNumber} best block"
+  },
+  {
+    "id": "ui.blockStatus.warpRestore",
+    "defaultMessage": "{percentage}% warp restore"
+  },
+  {
+    "id": "ui.blockStatus.syncStatus",
+    "defaultMessage": "{currentBlock}/{highestBlock} syncing"
+  },
+  {
+    "id": "ui.blockStatus.warpStatus",
+    "defaultMessage": ", {percentage}% historic"
+  }
+]
