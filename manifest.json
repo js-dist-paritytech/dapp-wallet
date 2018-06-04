@@ -1,7 +1,7 @@
 {
   "id": "v1",
   "name": "Parity Wallet",
-  "version": " 1.10.1",
+  "version": " 1.10.2",
   "author": "Parity <admin@parity.io>",
   "description": "Parity Wallet and Account management tools",
   "iconUrl": "icon.png"
