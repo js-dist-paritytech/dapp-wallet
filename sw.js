@@ -22,8 +22,8 @@ var serviceWorkerOption = {
     "/fonts/N4duVc9C58uwPiY8_59Fz9Dnm4qiMZlH5rhYv_7LI2Ybd43bb45b2.woff2",
     "/fonts/N4duVc9C58uwPiY8_59Fz9TIkQYohD4BpHvJ3NvbHoA63cba37360.woff2",
     "/fonts/N4duVc9C58uwPiY8_59FzyJ0caWjaSBdV-xZbEgst_kefb845429d.woff2",
-    "/index.c8240d2720.js",
-    "/commons.c8240d2720.js",
+    "/index.248a5d2ebb.js",
+    "/commons.248a5d2ebb.js",
     "/parity-logo-black-no-text.png",
     "/index.html"
   ]
