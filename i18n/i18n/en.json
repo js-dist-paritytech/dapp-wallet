@@ -1,1 +1,1613 @@
-{}
+{
+  "addAddress.label": {
+    "defaultMessage": "add saved address"
+  },
+  "addAddress.button.close": {
+    "defaultMessage": "Cancel"
+  },
+  "addAddress.button.add": {
+    "defaultMessage": "Save Address"
+  },
+  "addAddress.header": {
+    "defaultMessage": "To add a new entry to your addressbook, you need the network address of the account and can supply an optional description. Once added it will reflect in your address book."
+  },
+  "addAddress.input.address.hint": {
+    "defaultMessage": "the network address for the entry"
+  },
+  "addAddress.input.address.label": {
+    "defaultMessage": "network address"
+  },
+  "addAddress.input.name.hint": {
+    "defaultMessage": "a descriptive name for the entry"
+  },
+  "addAddress.input.name.label": {
+    "defaultMessage": "address name"
+  },
+  "addAddress.input.description.hint": {
+    "defaultMessage": "an expanded description for the entry"
+  },
+  "addAddress.input.description.label": {
+    "defaultMessage": "(optional) address description"
+  },
+  "dapps.add.label": {
+    "defaultMessage": "visible applications"
+  },
+  "dapps.add.local.label": {
+    "defaultMessage": "Applications locally available"
+  },
+  "dapps.add.local.desc": {
+    "defaultMessage": "All applications installed locally on the machine by the user for access by the Parity client."
+  },
+  "dapps.add.builtin.label": {
+    "defaultMessage": "Applications bundled with Parity"
+  },
+  "dapps.add.builtin.desc": {
+    "defaultMessage": "Experimental applications developed by the Parity team to show off dapp capabilities, integration, experimental features and to control certain network-wide client behaviour."
+  },
+  "dapps.add.network.label": {
+    "defaultMessage": "Applications on the global network"
+  },
+  "dapps.add.network.desc": {
+    "defaultMessage": "These applications are not affiliated with Parity nor are they published by Parity. Each remain under the control of their respective authors. Please ensure that you understand the goals for each application before interacting."
+  },
+  "createAccount.accountDetails.address.hint": {
+    "defaultMessage": "the network address for the account"
+  },
+  "createAccount.accountDetails.address.label": {
+    "defaultMessage": "address"
+  },
+  "createAccount.accountDetails.phrase.hint": {
+    "defaultMessage": "the account recovery phrase"
+  },
+  "createAccount.accountDetails.phrase.backedUp": {
+    "defaultMessage": "Type \"I have written down the phrase\" below to confirm it is backed up."
+  },
+  "createAccount.accountDetails.phrase.label": {
+    "defaultMessage": "owner recovery phrase"
+  },
+  "createAccount.accountDetails.phrase.backup": {
+    "defaultMessage": "Please back up the recovery phrase now. Make sure to keep it private and secure, it allows full and unlimited access to the account."
+  },
+  "createAccount.accountDetails.phrase.backupConfirm": {
+    "defaultMessage": "Type your recovery phrase now."
+  },
+  "createAccount.accountDetailsGeth.imported": {
+    "defaultMessage": "You have completed the import of {number} addresses from the Geth keystore. These will now be available in your accounts list as a normal account, along with their associated balances on the network."
+  },
+  "createAccount.title.createType": {
+    "defaultMessage": "creation type"
+  },
+  "createAccount.title.createAccount": {
+    "defaultMessage": "create account"
+  },
+  "createAccount.title.accountInfo": {
+    "defaultMessage": "account information"
+  },
+  "createAccount.title.backupPhrase": {
+    "defaultMessage": "confirm recovery phrase"
+  },
+  "createAccount.title.importAccount": {
+    "defaultMessage": "import account"
+  },
+  "createAccount.title.restoreAccount": {
+    "defaultMessage": "restore account"
+  },
+  "createAccount.title.qr": {
+    "defaultMessage": "external account"
+  },
+  "createAccount.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "createAccount.button.back": {
+    "defaultMessage": "Back"
+  },
+  "createAccount.button.next": {
+    "defaultMessage": "Next"
+  },
+  "createAccount.button.import": {
+    "defaultMessage": "Import"
+  },
+  "createAccount.button.print": {
+    "defaultMessage": "Print Phrase"
+  },
+  "createAccount.button.done": {
+    "defaultMessage": "Done"
+  },
+  "createAccount.button.create": {
+    "defaultMessage": "Create"
+  },
+  "createAccount.creationType.fromNew.description": {
+    "defaultMessage": "Selecting your identity icon and specifying the password"
+  },
+  "createAccount.creationType.fromNew.label": {
+    "defaultMessage": "New Account"
+  },
+  "createAccount.creationType.fromQr.description": {
+    "defaultMessage": "Attach an externally managed account via QR code"
+  },
+  "createAccount.creationType.fromQr.label": {
+    "defaultMessage": "External Account"
+  },
+  "createAccount.creationType.fromGeth.description": {
+    "defaultMessage": "Import accounts from the Geth keystore with the original password"
+  },
+  "createAccount.creationType.fromGeth.label": {
+    "defaultMessage": "Geth keystore"
+  },
+  "createAccount.creationType.fromJSON.description": {
+    "defaultMessage": "Import an industry-standard JSON keyfile with the original password"
+  },
+  "createAccount.creationType.fromJSON.label": {
+    "defaultMessage": "JSON file"
+  },
+  "createAccount.creationType.fromRaw.description": {
+    "defaultMessage": "Enter a previously created raw private key with a new password"
+  },
+  "createAccount.creationType.fromRaw.label": {
+    "defaultMessage": "Private key"
+  },
+  "createAccount.creationType.fromPresale.description": {
+    "defaultMessage": "Import an Ethereum presale wallet file with the original password"
+  },
+  "createAccount.creationType.fromPresale.label": {
+    "defaultMessage": "Presale wallet"
+  },
+  "createAccount.creationType.info": {
+    "defaultMessage": "Please select the type of account you want to create. Either create an account via name & password, or import it from a variety of existing sources. From here the wizard will guide you through the process of completing your account creation."
+  },
+  "errors.duplicateName": {
+    "defaultMessage": "the name already exists"
+  },
+  "errors.noFile": {
+    "defaultMessage": "select a valid wallet file to import"
+  },
+  "errors.noKey": {
+    "defaultMessage": "you need to provide the raw private key"
+  },
+  "errors.noMatchPassword": {
+    "defaultMessage": "the supplied passwords does not match"
+  },
+  "errors.noMatchBackupPhrase": {
+    "defaultMessage": "the supplied recovery phrase does not match"
+  },
+  "errors.noMatchPhraseBackedUp": {
+    "defaultMessage": "type \"I have written down the phrase\""
+  },
+  "errors.noName": {
+    "defaultMessage": "you need to specify a valid name"
+  },
+  "errors.invalidKey": {
+    "defaultMessage": "the raw key needs to be hex, 64 characters in length and contain the prefix \"0x\""
+  },
+  "createAccount.newAccount.name.hint": {
+    "defaultMessage": "a descriptive name for the account"
+  },
+  "createAccount.newAccount.name.label": {
+    "defaultMessage": "account name"
+  },
+  "createAccount.newAccount.hint.hint": {
+    "defaultMessage": "(optional) a hint to help with remembering the password"
+  },
+  "createAccount.newAccount.hint.label": {
+    "defaultMessage": "password hint"
+  },
+  "createAccount.newAccount.password.hint": {
+    "defaultMessage": "a strong, unique password"
+  },
+  "createAccount.newAccount.password.label": {
+    "defaultMessage": "password"
+  },
+  "createAccount.newAccount.password2.hint": {
+    "defaultMessage": "verify your password"
+  },
+  "createAccount.newAccount.password2.label": {
+    "defaultMessage": "password (repeat)"
+  },
+  "createAccount.newGeth.available": {
+    "defaultMessage": "There are currently {count} importable keys available from the Geth keystore which are not already available on your Parity instance. Select the accounts you wish to import and move to the next step to complete the import."
+  },
+  "createAccount.newGeth.noKeys": {
+    "defaultMessage": "There are currently no importable keys available from the Geth keystore, which are not already available on your Parity instance"
+  },
+  "createAccount.newImport.name.hint": {
+    "defaultMessage": "a descriptive name for the account"
+  },
+  "createAccount.newImport.name.label": {
+    "defaultMessage": "account name"
+  },
+  "createAccount.newImport.hint.hint": {
+    "defaultMessage": "(optional) a hint to help with remembering the password"
+  },
+  "createAccount.newImport.hint.label": {
+    "defaultMessage": "password hint"
+  },
+  "createAccount.newImport.password.hint": {
+    "defaultMessage": "the password to unlock the wallet"
+  },
+  "createAccount.newImport.password.label": {
+    "defaultMessage": "password"
+  },
+  "createAccount.newImport.file.hint": {
+    "defaultMessage": "the wallet file for import"
+  },
+  "createAccount.newImport.file.label": {
+    "defaultMessage": "wallet file"
+  },
+  "createAccount.newQr.address.hint": {
+    "defaultMessage": "the network address for the account"
+  },
+  "createAccount.newQr.address.label": {
+    "defaultMessage": "address"
+  },
+  "createAccount.newQr.name.hint": {
+    "defaultMessage": "a descriptive name for the account"
+  },
+  "createAccount.newQr.name.label": {
+    "defaultMessage": "account name"
+  },
+  "createAccount.newQr.description.hint": {
+    "defaultMessage": "a description for the account"
+  },
+  "createAccount.newQr.description.label": {
+    "defaultMessage": "account description"
+  },
+  "createAccount.newQr.summary": {
+    "defaultMessage": "Use the built-in machine camera to scan to QR code of the account you wish to attach as an external account. External accounts are signed on the external device."
+  },
+  "createAccount.rawKey.private.hint": {
+    "defaultMessage": "the raw hex encoded private key"
+  },
+  "createAccount.rawKey.private.label": {
+    "defaultMessage": "private key"
+  },
+  "createAccount.rawKey.name.hint": {
+    "defaultMessage": "a descriptive name for the account"
+  },
+  "createAccount.rawKey.name.label": {
+    "defaultMessage": "account name"
+  },
+  "createAccount.rawKey.hint.hint": {
+    "defaultMessage": "(optional) a hint to help with remembering the password"
+  },
+  "createAccount.rawKey.hint.label": {
+    "defaultMessage": "password hint"
+  },
+  "createAccount.rawKey.password.hint": {
+    "defaultMessage": "a strong, unique password"
+  },
+  "createAccount.rawKey.password.label": {
+    "defaultMessage": "password"
+  },
+  "createAccount.rawKey.password2.hint": {
+    "defaultMessage": "verify your password"
+  },
+  "createAccount.rawKey.password2.label": {
+    "defaultMessage": "password (repeat)"
+  },
+  "createAccount.recoveryPhrase.passPhrase.error": {
+    "defaultMessage": "enter a recovery phrase"
+  },
+  "createAccount.recoveryPhrase.phrase.hint": {
+    "defaultMessage": "the account recovery phrase"
+  },
+  "createAccount.recoveryPhrase.phrase.label": {
+    "defaultMessage": "account recovery phrase"
+  },
+  "createAccount.recoveryPhrase.name.hint": {
+    "defaultMessage": "a descriptive name for the account"
+  },
+  "createAccount.recoveryPhrase.name.label": {
+    "defaultMessage": "account name"
+  },
+  "createAccount.recoveryPhrase.hint.hint": {
+    "defaultMessage": "(optional) a hint to help with remembering the password"
+  },
+  "createAccount.recoveryPhrase.hint.label": {
+    "defaultMessage": "password hint"
+  },
+  "createAccount.recoveryPhrase.password.hint": {
+    "defaultMessage": "a strong, unique password"
+  },
+  "createAccount.recoveryPhrase.password.label": {
+    "defaultMessage": "password"
+  },
+  "createAccount.recoveryPhrase.password2.hint": {
+    "defaultMessage": "verify your password"
+  },
+  "createAccount.recoveryPhrase.password2.label": {
+    "defaultMessage": "password (repeat)"
+  },
+  "createAccount.recoveryPhrase.windowsKey.label": {
+    "defaultMessage": "Key was created with Parity <1.4.5 on Windows"
+  },
+  "createAccount.recoveryPhrase.warning.emptyPhrase": {
+    "defaultMessage": "The recovery phrase is empty.\n                This account can be recovered by anyone."
+  },
+  "createAccount.recoveryPhrase.warning.testnetEmptyPhrase": {
+    "defaultMessage": "The recovery phrase is empty.\n                This account can be recovered by anyone.\n                Proceed with caution."
+  },
+  "createAccount.recoveryPhrase.warning.shortPhrase": {
+    "defaultMessage": "The recovery phrase is less than 11 words.\n                This account has not been generated by Parity and might be insecure.\n                Proceed with caution."
+  },
+  "createWallet.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "createWallet.button.done": {
+    "defaultMessage": "Done"
+  },
+  "createWallet.button.next": {
+    "defaultMessage": "Next"
+  },
+  "createWallet.button.add": {
+    "defaultMessage": "Add"
+  },
+  "createWallet.button.create": {
+    "defaultMessage": "Create"
+  },
+  "createWallet.steps.type": {
+    "defaultMessage": "wallet type"
+  },
+  "createWallet.steps.details": {
+    "defaultMessage": "wallet details"
+  },
+  "createWallet.steps.info": {
+    "defaultMessage": "wallet informaton"
+  },
+  "createWallet.details.address.hint": {
+    "defaultMessage": "the wallet contract address"
+  },
+  "createWallet.details.address.label": {
+    "defaultMessage": "wallet address"
+  },
+  "createWallet.details.name.hint": {
+    "defaultMessage": "the local name for this wallet"
+  },
+  "createWallet.details.name.label": {
+    "defaultMessage": "wallet name"
+  },
+  "createWallet.details.description.hint": {
+    "defaultMessage": "the local description for this wallet"
+  },
+  "createWallet.details.description.label": {
+    "defaultMessage": "wallet description (optional)"
+  },
+  "createWallet.details.nameMulti.hint": {
+    "defaultMessage": "the local name for this wallet"
+  },
+  "createWallet.details.nameMulti.label": {
+    "defaultMessage": "wallet name"
+  },
+  "createWallet.details.descriptionMulti.hint": {
+    "defaultMessage": "the local description for this wallet"
+  },
+  "createWallet.details.descriptionMulti.label": {
+    "defaultMessage": "wallet description (optional)"
+  },
+  "createWallet.details.ownerMulti.hint": {
+    "defaultMessage": "the owner account for this contract"
+  },
+  "createWallet.details.ownerMulti.label": {
+    "defaultMessage": "from account (contract owner)"
+  },
+  "createWallet.details.ownersMulti.label": {
+    "defaultMessage": "other wallet owners"
+  },
+  "createWallet.details.ownersMultiReq.hint": {
+    "defaultMessage": "number of required owners to accept a transaction"
+  },
+  "createWallet.details.ownersMultiReq.label": {
+    "defaultMessage": "required owners"
+  },
+  "createWallet.details.dayLimitMulti.hint": {
+    "defaultMessage": "amount of ETH spendable without confirmations"
+  },
+  "createWallet.details.dayLimitMulti.label": {
+    "defaultMessage": "wallet day limit"
+  },
+  "createWallet.info.created": {
+    "defaultMessage": "{name} has been {deployedOrAdded} at"
+  },
+  "createWallet.info.deployed": {
+    "defaultMessage": "deployed"
+  },
+  "createWallet.info.added": {
+    "defaultMessage": "added"
+  },
+  "createWallet.info.copyAddress": {
+    "defaultMessage": "copy address to clipboard"
+  },
+  "createWallet.info.owners": {
+    "defaultMessage": "The following are wallet owners"
+  },
+  "createWallet.info.numOwners": {
+    "defaultMessage": "{numOwners} owners are required to confirm a transaction."
+  },
+  "createWallet.info.dayLimit": {
+    "defaultMessage": "The daily limit is set to {dayLimit} ETH."
+  },
+  "createWallet.type.watch.label": {
+    "defaultMessage": "Watch a wallet"
+  },
+  "createWallet.type.watch.description": {
+    "defaultMessage": "Add an existing multisig wallet to your accounts"
+  },
+  "dapps.permissions.label": {
+    "defaultMessage": "visible dapp accounts"
+  },
+  "deleteAccount.title": {
+    "defaultMessage": "confirm removal"
+  },
+  "deleteAccount.question": {
+    "defaultMessage": "Are you sure you want to permanently delete the following account?"
+  },
+  "deleteAccount.password.hint": {
+    "defaultMessage": "provide the account password to confirm the account deletion"
+  },
+  "deleteAccount.password.label": {
+    "defaultMessage": "account password"
+  },
+  "editMeta.title": {
+    "defaultMessage": "edit metadata"
+  },
+  "editMeta.name.label": {
+    "defaultMessage": "name"
+  },
+  "editMeta.description.hint": {
+    "defaultMessage": "description for this address"
+  },
+  "editMeta.description.label": {
+    "defaultMessage": "address description"
+  },
+  "editMeta.tags.hint": {
+    "defaultMessage": "press <Enter> to add a tag"
+  },
+  "editMeta.tags.label": {
+    "defaultMessage": "(optional) tags"
+  },
+  "editMeta.passwordHint.hint": {
+    "defaultMessage": "a hint to allow password recovery"
+  },
+  "editMeta.passwordHint.label": {
+    "defaultMessage": "(optional) password hint"
+  },
+  "export.accounts.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "export.accounts.button.export": {
+    "defaultMessage": "Export"
+  },
+  "export.accounts.title": {
+    "defaultMessage": "Export an Account"
+  },
+  "export.setPassword.label": {
+    "defaultMessage": "Password"
+  },
+  "export.setPassword.hint": {
+    "defaultMessage": "Enter password Here"
+  },
+  "passwordChange.title": {
+    "defaultMessage": "Password Manager"
+  },
+  "passwordChange.passwordHint.display": {
+    "defaultMessage": "Hint {hint}"
+  },
+  "passwordChange.tabTest.label": {
+    "defaultMessage": "Test Password"
+  },
+  "passwordChange.tabChange.label": {
+    "defaultMessage": "Change Password"
+  },
+  "passwordChange.testPassword.hint": {
+    "defaultMessage": "your account password"
+  },
+  "passwordChange.testPassword.label": {
+    "defaultMessage": "password"
+  },
+  "passwordChange.currentPassword.hint": {
+    "defaultMessage": "your current password for this account"
+  },
+  "passwordChange.currentPassword.label": {
+    "defaultMessage": "current password"
+  },
+  "passwordChange.passwordHint.hint": {
+    "defaultMessage": "hint for the new password"
+  },
+  "passwordChange.passwordHint.label": {
+    "defaultMessage": "(optional) new password hint"
+  },
+  "passwordChange.newPassword.hint": {
+    "defaultMessage": "the new password for this account"
+  },
+  "passwordChange.newPassword.label": {
+    "defaultMessage": "new password"
+  },
+  "passwordChange.repeatPassword.error": {
+    "defaultMessage": "the supplied passwords do not match"
+  },
+  "passwordChange.repeatPassword.hint": {
+    "defaultMessage": "repeat the new password for this account"
+  },
+  "passwordChange.repeatPassword.label": {
+    "defaultMessage": "repeat new password"
+  },
+  "passwordChange.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "passwordChange.button.wait": {
+    "defaultMessage": "Wait..."
+  },
+  "passwordChange.button.test": {
+    "defaultMessage": "Test"
+  },
+  "passwordChange.button.change": {
+    "defaultMessage": "Change"
+  },
+  "passwordChange.success": {
+    "defaultMessage": "Your password has been successfully changed"
+  },
+  "shapeshift.awaitingDepositStep.awaitingConfirmation": {
+    "defaultMessage": "Awaiting confirmation of the deposit address for your {typeSymbol} funds exchange"
+  },
+  "shapeshift.awaitingDepositStep.awaitingDeposit": {
+    "defaultMessage": "{shapeshiftLink} is awaiting a {typeSymbol} deposit. Send the funds from your {typeSymbol} network client to -"
+  },
+  "shapeshift.awaitingDepositStep.minimumMaximum": {
+    "defaultMessage": "{minimum} minimum, {maximum} maximum"
+  },
+  "shapeshift.awaitingExchangeStep.receivedInfo": {
+    "defaultMessage": "{shapeshiftLink} has received a deposit of -"
+  },
+  "shapeshift.awaitingExchangeStep.awaitingCompletion": {
+    "defaultMessage": "Awaiting the completion of the funds exchange and transfer of funds to your Parity account."
+  },
+  "shapeshift.completedStep.completed": {
+    "defaultMessage": "{shapeshiftLink} has completed the funds exchange."
+  },
+  "shapeshift.completedStep.parityFunds": {
+    "defaultMessage": "The change in funds will be reflected in your Parity account shortly."
+  },
+  "shapeshift.errorStep.info": {
+    "defaultMessage": "The funds shifting via {shapeshiftLink} failed with a fatal error on the exchange. The error message received from the exchange is as follow:"
+  },
+  "shapeshift.warning.noPrice": {
+    "defaultMessage": "No price match was found for the selected type"
+  },
+  "shapeshift.optionsStep.noPairs": {
+    "defaultMessage": "There are currently no exchange pairs/coins available to fund with."
+  },
+  "shapeshift.optionsStep.typeSelect.hint": {
+    "defaultMessage": "the type of crypto conversion to do"
+  },
+  "shapeshift.optionsStep.typeSelect.label": {
+    "defaultMessage": "fund account from"
+  },
+  "shapeshift.optionsStep.returnAddr.hint": {
+    "defaultMessage": "the return address for send failures"
+  },
+  "shapeshift.optionsStep.returnAddr.label": {
+    "defaultMessage": "(optional) {coinSymbol} return address"
+  },
+  "shapeshift.optionsStep.terms.label": {
+    "defaultMessage": "I understand that ShapeShift.io is a 3rd-party service and by using the service any transfer of information and/or funds is completely out of the control of Parity"
+  },
+  "shapeshift.price.minMax": {
+    "defaultMessage": "({minimum} minimum, {maximum} maximum)"
+  },
+  "shapeshift.title.details": {
+    "defaultMessage": "details"
+  },
+  "shapeshift.title.deposit": {
+    "defaultMessage": "awaiting deposit"
+  },
+  "shapeshift.title.exchange": {
+    "defaultMessage": "awaiting exchange"
+  },
+  "shapeshift.title.completed": {
+    "defaultMessage": "completed"
+  },
+  "shapeshift.title.error": {
+    "defaultMessage": "exchange failed"
+  },
+  "shapeshift.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "shapeshift.button.shift": {
+    "defaultMessage": "Shift Funds"
+  },
+  "shapeshift.button.done": {
+    "defaultMessage": "Close"
+  },
+  "transfer.details.amount.label": {
+    "defaultMessage": "amount to transfer (in {tag})"
+  },
+  "transfer.details.amount.hint": {
+    "defaultMessage": "the amount to transfer to the recipient"
+  },
+  "transfer.details.fullBalance.label": {
+    "defaultMessage": "full account balance"
+  },
+  "transfer.details.total.label": {
+    "defaultMessage": "total transaction amount"
+  },
+  "transfer.details.advanced.label": {
+    "defaultMessage": "advanced sending options"
+  },
+  "transfer.details.sender.label": {
+    "defaultMessage": "sender address"
+  },
+  "transfer.details.sender.hint": {
+    "defaultMessage": "the sender address"
+  },
+  "transfer.details.recipient.label": {
+    "defaultMessage": "recipient address"
+  },
+  "transfer.details.recipient.hint": {
+    "defaultMessage": "the recipient address"
+  },
+  "transfer.advanced.data.hint": {
+    "defaultMessage": "the data to pass through with the transaction"
+  },
+  "transfer.advanced.data.label": {
+    "defaultMessage": "transaction data"
+  },
+  "transfer.warning.wallet_spent_limit": {
+    "defaultMessage": "This transaction value is above the remaining daily limit. It will need to be confirmed by other owners."
+  },
+  "transfer.buttons.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "transfer.buttons.next": {
+    "defaultMessage": "Next"
+  },
+  "transfer.buttons.back": {
+    "defaultMessage": "Back"
+  },
+  "transfer.buttons.send": {
+    "defaultMessage": "Send"
+  },
+  "upgradeParity.step.info": {
+    "defaultMessage": "upgrade available"
+  },
+  "upgradeParity.step.updating": {
+    "defaultMessage": "upgrading parity"
+  },
+  "upgradeParity.step.error": {
+    "defaultMessage": "error"
+  },
+  "upgradeParity.step.completed": {
+    "defaultMessage": "upgrade completed"
+  },
+  "upgradeParity.button.close": {
+    "defaultMessage": "close"
+  },
+  "upgradeParity.button.done": {
+    "defaultMessage": "done"
+  },
+  "upgradeParity.button.upgrade": {
+    "defaultMessage": "upgrade now"
+  },
+  "upgradeParity.busy": {
+    "defaultMessage": "Your upgrade to Parity {newversion} is currently in progress. Please wait until the process completes."
+  },
+  "upgradeParity.completed": {
+    "defaultMessage": "Your upgrade to Parity {newversion} has been successfully completed. Click \"done\" to automatically reload the application."
+  },
+  "upgradeParity.failed": {
+    "defaultMessage": "Your upgrade to Parity {newversion} has failed with an error."
+  },
+  "upgradeParity.info.welcome": {
+    "defaultMessage": "Welcome to the Parity upgrade wizard, allowing you a completely seamless upgrade experience to the next version of Parity."
+  },
+  "upgradeParity.info.currentVersion": {
+    "defaultMessage": "You are currently running {currentversion}"
+  },
+  "upgradeParity.info.upgrade": {
+    "defaultMessage": "An upgrade to version {newversion} is available"
+  },
+  "upgradeParity.info.next": {
+    "defaultMessage": "Proceed with \"upgrade now\" to start your Parity upgrade."
+  },
+  "upgradeParity.consensus.capable": {
+    "defaultMessage": "Your current Parity version is capable of handling the network requirements."
+  },
+  "upgradeParity.consensus.capableUntil": {
+    "defaultMessage": "Your current Parity version is capable of handling the network requirements until block {blockNumber}"
+  },
+  "upgradeParity.consensus.incapableSince": {
+    "defaultMessage": "Your current Parity version is incapable of handling the network requirements since block {blockNumber}"
+  },
+  "upgradeParity.consensus.unknown": {
+    "defaultMessage": "Your current Parity version is capable of handling the network requirements."
+  },
+  "upgradeParity.version.unknown": {
+    "defaultMessage": "unknown"
+  },
+  "vaults.accounts.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "vaults.accounts.button.execute": {
+    "defaultMessage": "Set"
+  },
+  "vaults.accounts.title": {
+    "defaultMessage": "Manage Vault Accounts"
+  },
+  "vaults.create.button.close": {
+    "defaultMessage": "close"
+  },
+  "vaults.create.button.vault": {
+    "defaultMessage": "create vault"
+  },
+  "vaults.create.title": {
+    "defaultMessage": "Create a new vault"
+  },
+  "vaults.create.name.hint": {
+    "defaultMessage": "a name for the vault"
+  },
+  "vaults.create.name.label": {
+    "defaultMessage": "vault name"
+  },
+  "vaults.create.description.hint": {
+    "defaultMessage": "an extended description for the vault"
+  },
+  "vaults.create.descriptions.label": {
+    "defaultMessage": "(optional) description"
+  },
+  "vaults.create.hint.hint": {
+    "defaultMessage": "(optional) a hint to help with remembering the password"
+  },
+  "vaults.create.hint.label": {
+    "defaultMessage": "password hint"
+  },
+  "vaults.create.password.hint": {
+    "defaultMessage": "a strong, unique password"
+  },
+  "vaults.create.password.label": {
+    "defaultMessage": "password"
+  },
+  "vaults.create.password2.hint": {
+    "defaultMessage": "verify your password"
+  },
+  "vaults.create.password2.label": {
+    "defaultMessage": "password (repeat)"
+  },
+  "vaults.confirmClose.title": {
+    "defaultMessage": "Close Vault"
+  },
+  "vaults.confirmClose.info": {
+    "defaultMessage": "You are about to close a vault. Any accounts associated with the vault won't be visible after this operation concludes. To view the associated accounts, open the vault again."
+  },
+  "vaults.editMeta.button.close": {
+    "defaultMessage": "close"
+  },
+  "vaults.editMeta.button.save": {
+    "defaultMessage": "save"
+  },
+  "vaults.editMeta.title": {
+    "defaultMessage": "Edit Vault Metadata"
+  },
+  "vaults.editMeta.description.hint": {
+    "defaultMessage": "the description for this vault"
+  },
+  "vaults.editMeta.description.label": {
+    "defaultMessage": "vault description"
+  },
+  "vaults.editMeta.passwordHint.hint": {
+    "defaultMessage": "your password hint for this vault"
+  },
+  "vaults.editMeta.passwordHint.label": {
+    "defaultMessage": "password hint"
+  },
+  "vaults.editMeta.allowPassword": {
+    "defaultMessage": "Change vault password"
+  },
+  "vaults.editMeta.currentPassword.hint": {
+    "defaultMessage": "your current vault password"
+  },
+  "vaults.editMeta.currentPassword.label": {
+    "defaultMessage": "current password"
+  },
+  "vaults.editMeta.password.hint": {
+    "defaultMessage": "a strong, unique password"
+  },
+  "vaults.editMeta.password.label": {
+    "defaultMessage": "new password"
+  },
+  "vaults.editMeta.password2.hint": {
+    "defaultMessage": "verify your new password"
+  },
+  "vaults.editMeta.password2.label": {
+    "defaultMessage": "new password (repeat)"
+  },
+  "vaults.selector.title": {
+    "defaultMessage": "Select Account Vault"
+  },
+  "vaults.selector.noneAvailable": {
+    "defaultMessage": "There are currently no vaults opened and available for selection. Create and open some first before attempting to select a vault for an account move."
+  },
+  "vaults.confirmOpen.title": {
+    "defaultMessage": "Open Vault"
+  },
+  "vaults.confirmOpen.info": {
+    "defaultMessage": "You are about to open a vault. After confirming your password, all accounts associated with this vault will be visible. Closing the vault will remove the accounts from view until the vault is opened again."
+  },
+  "vaults.confirmOpen.password.hint": {
+    "defaultMessage": "the password specified when creating the vault"
+  },
+  "vaults.confirmOpen.password.label": {
+    "defaultMessage": "vault password"
+  },
+  "walletSettings.edit.message": {
+    "defaultMessage": "In order to edit this contract's settings, at\n                  least {owners, number} {owners, plural, one {owner } other {owners }} have to\n                  send the very same modifications. You can paste a stringified version\n                  of the modifications here."
+  },
+  "walletSettings.modifications.fromString.label": {
+    "defaultMessage": "modifications"
+  },
+  "walletSettings.modifications.sender.label": {
+    "defaultMessage": "from account (wallet owner)"
+  },
+  "walletSettings.modifications.sender.hint": {
+    "defaultMessage": "send modifications as this owner"
+  },
+  "walletSettings.modifications.owners.label": {
+    "defaultMessage": "other wallet owners"
+  },
+  "walletSettings.modifications.required.label": {
+    "defaultMessage": "required owners"
+  },
+  "walletSettings.modifications.required.hint": {
+    "defaultMessage": "number of required owners to accept a transaction"
+  },
+  "walletSettings.modifications.daylimit.label": {
+    "defaultMessage": "wallet day limit"
+  },
+  "walletSettings.modifications.daylimit.hint": {
+    "defaultMessage": "amount of ETH spendable without confirmations"
+  },
+  "walletSettings.changes.none": {
+    "defaultMessage": "No modifications have been made to the Wallet settings."
+  },
+  "walletSettings.changes.modificationString": {
+    "defaultMessage": "For your modifications to be taken into account,\n              other owners have to send the same modifications. They can paste\n              this string to make it easier:"
+  },
+  "walletSettings.changes.overview": {
+    "defaultMessage": "You are about to make the following modifications"
+  },
+  "walletSettings.ownersChange.title": {
+    "defaultMessage": "Change Required Owners"
+  },
+  "walletSettings.ownersChange.details": {
+    "defaultMessage": "from {from} to {to}"
+  },
+  "walletSettings.changeOwner.title": {
+    "defaultMessage": "Change Owner"
+  },
+  "walletSettings.changeOwner.labelFrom": {
+    "defaultMessage": "From"
+  },
+  "walletSettings.changeOwner.labelTo": {
+    "defaultMessage": "To"
+  },
+  "walletSettings.addOwner.title": {
+    "defaultMessage": "Add Owner"
+  },
+  "walletSettings.removeOwner.title": {
+    "defaultMessage": "Remove Owner"
+  },
+  "walletSettings.buttons.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "walletSettings.buttons.close": {
+    "defaultMessage": "Close"
+  },
+  "walletSettings.buttons.next": {
+    "defaultMessage": "Next"
+  },
+  "walletSettings.buttons.send": {
+    "defaultMessage": "Send"
+  },
+  "ui.actionbar.export.button.export": {
+    "defaultMessage": "export"
+  },
+  "ui.actionbar.import.button.import": {
+    "defaultMessage": "import"
+  },
+  "ui.actionbar.import.step.select": {
+    "defaultMessage": "select a file"
+  },
+  "ui.actionbar.import.step.error": {
+    "defaultMessage": "error"
+  },
+  "ui.actionbar.import.step.validate": {
+    "defaultMessage": "validate"
+  },
+  "ui.actionbar.import.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "ui.actionbar.import.button.confirm": {
+    "defaultMessage": "Confirm"
+  },
+  "ui.actionbar.import.error": {
+    "defaultMessage": "An error occured: {errorText}"
+  },
+  "ui.actionbar.import.confirm": {
+    "defaultMessage": "Confirm that this is what was intended to import."
+  },
+  "ui.actionbar.import.title": {
+    "defaultMessage": "Import from a file"
+  },
+  "ui.actionbar.search.hint": {
+    "defaultMessage": "Enter search input..."
+  },
+  "ui.actionbar.sort.typeDefault": {
+    "defaultMessage": "Default"
+  },
+  "ui.actionbar.sort.typeTags": {
+    "defaultMessage": "Sort by tags"
+  },
+  "ui.actionbar.sort.typeName": {
+    "defaultMessage": "Sort by name"
+  },
+  "ui.actionbar.sort.typeEth": {
+    "defaultMessage": "Sort by ETH"
+  },
+  "ui.actionbar.sort.sortBy": {
+    "defaultMessage": "Sort by {label}"
+  },
+  "ui.balance.none": {
+    "defaultMessage": "No balances associated with this account"
+  },
+  "ui.blockStatus.bestBlock": {
+    "defaultMessage": "{blockNumber} best block"
+  },
+  "ui.blockStatus.warpRestore": {
+    "defaultMessage": "{percentage}% warp restore"
+  },
+  "ui.blockStatus.syncStatus": {
+    "defaultMessage": "{currentBlock}/{highestBlock} syncing"
+  },
+  "ui.blockStatus.warpStatus": {
+    "defaultMessage": ", {percentage}% historic"
+  },
+  "ui.confirmDialog.no": {
+    "defaultMessage": "no"
+  },
+  "ui.confirmDialog.yes": {
+    "defaultMessage": "yes"
+  },
+  "ui.copyToClipboard.copied": {
+    "defaultMessage": "copied {data} to clipboard"
+  },
+  "ui.errors.close": {
+    "defaultMessage": "close"
+  },
+  "addressSelect.noAccount": {
+    "defaultMessage": "No account matches this query..."
+  },
+  "addressSelect.fromRegistry": {
+    "defaultMessage": "{name} (from registry)"
+  },
+  "addressSelect.fromEmail": {
+    "defaultMessage": "Verified using email {email}"
+  },
+  "addressSelect.labels.accounts": {
+    "defaultMessage": "accounts"
+  },
+  "addressSelect.labels.contacts": {
+    "defaultMessage": "contacts"
+  },
+  "addressSelect.labels.contracts": {
+    "defaultMessage": "contracts"
+  },
+  "ui.fileSelect.defaultLabel": {
+    "defaultMessage": "Drop a file here, or click to select a file to upload"
+  },
+  "ui.passwordStrength.label": {
+    "defaultMessage": "password strength"
+  },
+  "ui.vaultSelect.hint": {
+    "defaultMessage": "the vault this account is attached to"
+  },
+  "ui.vaultSelect.label": {
+    "defaultMessage": "associated vault"
+  },
+  "txEditor.condition.none": {
+    "defaultMessage": "No conditions"
+  },
+  "txEditor.condition.blocknumber": {
+    "defaultMessage": "Send after BlockNumber"
+  },
+  "txEditor.condition.datetime": {
+    "defaultMessage": "Send after Date & Time"
+  },
+  "txEditor.condition.label": {
+    "defaultMessage": "Condition where transaction activates"
+  },
+  "txEditor.gas.info": {
+    "defaultMessage": "You can choose the gas price based on the distribution of recent included transaction gas prices. The lower the gas price is, the cheaper the transaction will be. The higher the gas price is, the faster it should get mined by the network."
+  },
+  "txEditor.condition.block.hint": {
+    "defaultMessage": "The minimum block to send from"
+  },
+  "txEditor.condition.block.label": {
+    "defaultMessage": "Transaction send block"
+  },
+  "txEditor.condition.date.hint": {
+    "defaultMessage": "The minimum date to send from"
+  },
+  "txEditor.condition.date.label": {
+    "defaultMessage": "Transaction send date"
+  },
+  "txEditor.condition.time.hint": {
+    "defaultMessage": "The minimum time to send from"
+  },
+  "txEditor.condition.time.label": {
+    "defaultMessage": "Transaction send time"
+  },
+  "ui.gasPriceSelector.customTooltip.transactions": {
+    "defaultMessage": "{number} {number, plural, one {transaction} other {transactions}} with gas price set from {minPrice} to {maxPrice}"
+  },
+  "ui.identityName.unnamed": {
+    "defaultMessage": "UNNAMED"
+  },
+  "ui.identityName.null": {
+    "defaultMessage": "NULL"
+  },
+  "settings.parity.languages.hint": {
+    "defaultMessage": "the language this interface is displayed with"
+  },
+  "settings.parity.languages.label": {
+    "defaultMessage": "UI language"
+  },
+  "ui.methodDecoding.gasValues": {
+    "defaultMessage": "{gas} gas ({gasPrice}M/{tag})"
+  },
+  "ui.methodDecoding.gasUsed": {
+    "defaultMessage": "({gas} gas used)"
+  },
+  "ui.methodDecoding.txValues": {
+    "defaultMessage": "{historic, select, true {Provided} false {Provides}} {gasProvided}{gasUsed} for a total transaction value of {totalEthValue}"
+  },
+  "ui.methodDecoding.condition.block": {
+    "defaultMessage": "{historic, select, true {Will be submitted} false {To be submitted}} at block {blockNumber}"
+  },
+  "ui.methodDecoding.condition.time": {
+    "defaultMessage": "{historic, select, true {Will be submitted} false {To be submitted}} {timestamp}"
+  },
+  "ui.methodDecoding.input.input": {
+    "defaultMessage": "input"
+  },
+  "ui.methodDecoding.input.data": {
+    "defaultMessage": "data"
+  },
+  "ui.methodDecoding.input.withInput": {
+    "defaultMessage": "with the {inputDesc} {inputValue}"
+  },
+  "ui.methodDecoding.token.transfer": {
+    "defaultMessage": "{historic, select, true {Transferred} false {Will transfer}} {value} to {address}"
+  },
+  "ui.methodDecoding.deploy.willDeploy": {
+    "defaultMessage": "Will deploy a contract"
+  },
+  "ui.methodDecoding.deploy.withValue": {
+    "defaultMessage": ", sending {value}"
+  },
+  "ui.methodDecoding.deploy.address": {
+    "defaultMessage": "Deployed a contract at address"
+  },
+  "ui.methodDecoding.deploy.params": {
+    "defaultMessage": "with the following parameters:"
+  },
+  "ui.methodDecoding.receive.contract": {
+    "defaultMessage": "the contract"
+  },
+  "ui.methodDecoding.receive.info": {
+    "defaultMessage": "{historic, select, true {Received} false {Will receive}} {valueEth} from {aContract}{address}"
+  },
+  "ui.methodDecoding.transfer.contract": {
+    "defaultMessage": "the contract"
+  },
+  "ui.methodDecoding.transfer.info": {
+    "defaultMessage": "{historic, select, true {Transferred} false {Will transfer}} {valueEth} to {aContract}{address}"
+  },
+  "ui.methodDecoding.signature.info": {
+    "defaultMessage": "{historic, select, true {Executed} false {Will execute}} the {method} function on the contract {address} {showEth, select, true {transferring {ethValue}} false {}} {showInputs, select, false {} true {passing the following {inputLength, plural, one {parameter} other {parameters}}}}"
+  },
+  "ui.methodDecoding.unknown.info": {
+    "defaultMessage": "{historic, select, true {Executed} false {Will execute}} the {method} on the contract {address} transferring {ethValue}."
+  },
+  "ui.tooltips.button.skip": {
+    "defaultMessage": "Skip"
+  },
+  "ui.tooltips.button.next": {
+    "defaultMessage": "Next"
+  },
+  "ui.tooltips.button.done": {
+    "defaultMessage": "Done"
+  },
+  "ui.txHash.posted": {
+    "defaultMessage": "The transaction has been posted to the network with a hash of {hashLink}"
+  },
+  "ui.txHash.oog": {
+    "defaultMessage": "The transaction might have gone out of gas. Try again with more gas."
+  },
+  "ui.txHash.waiting": {
+    "defaultMessage": "waiting for confirmations"
+  },
+  "ui.txHash.confirmations": {
+    "defaultMessage": "{count} {value, plural, one {confirmation} other {confirmations}}"
+  },
+  "ui.txList.txRow.canceled": {
+    "defaultMessage": "Canceled"
+  },
+  "ui.txList.txRow.editing": {
+    "defaultMessage": "Editing"
+  },
+  "ui.txList.txRow.submitting": {
+    "defaultMessage": "Pending"
+  },
+  "ui.txList.txRow.scheduled": {
+    "defaultMessage": "Scheduled"
+  },
+  "ui.txList.txRow.edit": {
+    "defaultMessage": "Edit"
+  },
+  "ui.txList.txRow.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "ui.txList.txRow.cancelWarning": {
+    "defaultMessage": "Warning: Editing or Canceling the transaction may not succeed!"
+  },
+  "ui.txList.txRow.verify.cancelEditCancel": {
+    "defaultMessage": "Cancel"
+  },
+  "ui.txList.txRow.verify.cancelEditEdit": {
+    "defaultMessage": "Edit"
+  },
+  "ui.txList.txRow.verify": {
+    "defaultMessage": "Are you sure?"
+  },
+  "ui.txList.txRow.verify.nevermind": {
+    "defaultMessage": "Nevermind"
+  },
+  "ui.txList.txRow.pendingStatus.time": {
+    "defaultMessage": "{time} left"
+  },
+  "ui.txList.txRow.pendingStatus.blocksLeft": {
+    "defaultMessage": "{blockNumber} blocks left"
+  },
+  "vaults.accounts.empty": {
+    "defaultMessage": "There are no accounts in this vault"
+  },
+  "account.button.transfer": {
+    "defaultMessage": "transfer"
+  },
+  "account.button.shapeshift": {
+    "defaultMessage": "shapeshift"
+  },
+  "account.button.edit": {
+    "defaultMessage": "edit"
+  },
+  "account.button.export": {
+    "defaultMessage": "export"
+  },
+  "account.button.password": {
+    "defaultMessage": "password"
+  },
+  "account.button.forget": {
+    "defaultMessage": "forget"
+  },
+  "account.button.delete": {
+    "defaultMessage": "delete"
+  },
+  "account.title": {
+    "defaultMessage": "Account Management"
+  },
+  "account.hardware.confirmDelete": {
+    "defaultMessage": "Are you sure you want to remove the following hardware address from your account list?"
+  },
+  "account.external.confirmDelete": {
+    "defaultMessage": "Are you sure you want to remove the following external address from your account list?"
+  },
+  "account.export.title": {
+    "defaultMessage": "Export Account"
+  },
+  "account.export.info": {
+    "defaultMessage": "Export your account as a JSON file. Please enter the password linked with this account."
+  },
+  "account.export.password.hint": {
+    "defaultMessage": "The password specified when creating this account"
+  },
+  "account.export.password.label": {
+    "defaultMessage": "Account password"
+  },
+  "account.header.outgoingTransactions": {
+    "defaultMessage": "{count} outgoing transactions"
+  },
+  "account.header.uuid": {
+    "defaultMessage": "uuid: {uuid}"
+  },
+  "account.transactions.title": {
+    "defaultMessage": "transactions"
+  },
+  "account.transactions.poweredBy": {
+    "defaultMessage": "Transaction list powered by {etherscan}"
+  },
+  "accounts.tooltip.overview": {
+    "defaultMessage": "your accounts are visible for easy access, allowing you to edit the meta information, make transfers, view transactions and fund the account"
+  },
+  "accounts.button.newAccount": {
+    "defaultMessage": "account"
+  },
+  "accounts.button.restoreAccount": {
+    "defaultMessage": "restore"
+  },
+  "accounts.button.export": {
+    "defaultMessage": "export"
+  },
+  "accounts.title": {
+    "defaultMessage": "Accounts Overview"
+  },
+  "accounts.tooltip.actions": {
+    "defaultMessage": "actions relating to the current view are available on the toolbar for quick access, be it for performing actions or creating a new item"
+  },
+  "accounts.button.vaults": {
+    "defaultMessage": "vaults"
+  },
+  "accounts.button.newWallet": {
+    "defaultMessage": "wallet"
+  },
+  "accounts.summary.minedBlock": {
+    "defaultMessage": "Mined at block #{blockNumber}"
+  },
+  "accounts.tooltips.owner": {
+    "defaultMessage": "{name} (owner)"
+  },
+  "address.buttons.edit": {
+    "defaultMessage": "edit"
+  },
+  "address.buttons.forget": {
+    "defaultMessage": "forget"
+  },
+  "address.buttons.save": {
+    "defaultMessage": "save"
+  },
+  "address.title": {
+    "defaultMessage": "Address Information"
+  },
+  "address.delete.title": {
+    "defaultMessage": "confirm removal"
+  },
+  "address.delete.confirmInfo": {
+    "defaultMessage": "Are you sure you want to remove the following address from your addressbook?"
+  },
+  "addresses.buttons.add": {
+    "defaultMessage": "address"
+  },
+  "addresses.title": {
+    "defaultMessage": "Saved Addresses"
+  },
+  "addresses.errors.invalidFile": {
+    "defaultMessage": "The provided file is invalid..."
+  },
+  "home.title": {
+    "defaultMessage": "Parity Home"
+  },
+  "settings.background.overview_0": {
+    "defaultMessage": "The background pattern you can see right now is unique to your Parity installation. It will change every time you create a new Signer token. This is so that decentralized applications cannot pretend to be trustworthy."
+  },
+  "settings.background.overview_1": {
+    "defaultMessage": "Pick a pattern you like and memorize it. This Pattern will always be shown from now on, unless you clear your browser cache or use a new Signer token."
+  },
+  "settings.background.button_more": {
+    "defaultMessage": "generate more"
+  },
+  "settings.parity.overview_0": {
+    "defaultMessage": "Control the Parity node settings and nature of syncing via this interface."
+  },
+  "settings.parity.loglevels": {
+    "defaultMessage": "Choose the different logs level."
+  },
+  "settings.parity.modes.hint": {
+    "defaultMessage": "the syncing mode for the Parity node"
+  },
+  "settings.parity.modes.label": {
+    "defaultMessage": "mode of operation"
+  },
+  "settings.parity.modes.mode_active": {
+    "defaultMessage": "Parity continuously syncs the chain"
+  },
+  "settings.parity.modes.mode_passive": {
+    "defaultMessage": "Parity syncs initially, then sleeps and wakes regularly to resync"
+  },
+  "settings.parity.modes.mode_dark": {
+    "defaultMessage": "Parity syncs only when the RPC is active"
+  },
+  "settings.parity.modes.mode_offline": {
+    "defaultMessage": "Parity doesn't sync"
+  },
+  "settings.parity.chains.hint": {
+    "defaultMessage": "the chain for the Parity node to sync to"
+  },
+  "settings.parity.chains.label": {
+    "defaultMessage": "chain/network to sync"
+  },
+  "settings.parity.chains.chain_foundation": {
+    "defaultMessage": "Parity syncs to the Ethereum network launched by the Ethereum Foundation"
+  },
+  "settings.parity.chains.chain_kovan": {
+    "defaultMessage": "Parity syncs to the Kovan test network"
+  },
+  "settings.parity.chains.chain_olympic": {
+    "defaultMessage": "Parity syncs to the Olympic test network"
+  },
+  "settings.parity.chains.cmorden_kovan": {
+    "defaultMessage": "Parity syncs to Morden (Classic) test network"
+  },
+  "settings.parity.chains.chain_ropsten": {
+    "defaultMessage": "Parity syncs to the Ropsten test network"
+  },
+  "settings.parity.chains.chain_classic": {
+    "defaultMessage": "Parity syncs to the Ethereum Classic network"
+  },
+  "settings.parity.chains.chain_expanse": {
+    "defaultMessage": "Parity syncs to the Expanse network"
+  },
+  "settings.parity.chains.chain_dev": {
+    "defaultMessage": "Parity uses a local development chain"
+  },
+  "settings.proxy.overview_0": {
+    "defaultMessage": "The proxy setup allows you to access Parity and all associated decentralized applications via memorable addresses."
+  },
+  "settings.proxy.details_0": {
+    "defaultMessage": "Instead of accessing Parity via the IP address and port, you will be able to access it via the .web3.site subdomain, by visiting {homeProxy}. To setup subdomain-based routing, you need to add the relevant proxy entries to your browser,"
+  },
+  "settings.proxy.details_1": {
+    "defaultMessage": "To learn how to configure the proxy, instructions are provided for {windowsLink}, {macOSLink} or {ubuntuLink}."
+  },
+  "settings.proxy.details_windows": {
+    "defaultMessage": "Windows"
+  },
+  "settings.proxy.details_macos": {
+    "defaultMessage": "macOS"
+  },
+  "settings.proxy.details_ubuntu": {
+    "defaultMessage": "Ubuntu"
+  },
+  "settings.views.overview_0": {
+    "defaultMessage": "Manage the available application views using only the parts of the application applicable to you."
+  },
+  "settings.views.overview_1": {
+    "defaultMessage": "Are you an end-user? The defaults are setup for both beginner and advanced users alike."
+  },
+  "settings.views.overview_3": {
+    "defaultMessage": "Are you a miner or run a large-scale node? Add the features to give you all the information needed to watch the node operation."
+  },
+  "settings.views.accounts.description": {
+    "defaultMessage": "A list of all the accounts associated with and imported into this Parity instance. Send transactions, receive incoming values, manage your balances and fund your accounts."
+  },
+  "settings.views.addresses.description": {
+    "defaultMessage": "A list of all contacts and address book entries managed by this Parity instance. Watch accounts and have the details available at the click of a button when transacting."
+  },
+  "settings.views.settings.description": {
+    "defaultMessage": "This view. Allows you to customize the application in term of options, operation and look and feel."
+  },
+  "status.debug.title": {
+    "defaultMessage": "Node Logs"
+  },
+  "status.debug.stopped": {
+    "defaultMessage": "Refresh and display of logs from Parity is currently stopped via the UI, start it to see the latest updates."
+  },
+  "status.debug.reverse": {
+    "defaultMessage": "Reverse Order"
+  },
+  "status.health.yes": {
+    "defaultMessage": "yes"
+  },
+  "status.health.no": {
+    "defaultMessage": "no"
+  },
+  "status.health.title": {
+    "defaultMessage": "Node Health"
+  },
+  "status.health.sync": {
+    "defaultMessage": "Chain Synchronized"
+  },
+  "status.health.peers": {
+    "defaultMessage": "Connected Peers"
+  },
+  "status.health.time": {
+    "defaultMessage": "Time Synchronized"
+  },
+  "status.miningSettings.title": {
+    "defaultMessage": "mining settings"
+  },
+  "status.miningSettings.input.author.label": {
+    "defaultMessage": "author"
+  },
+  "status.miningSettings.input.author.hint": {
+    "defaultMessage": "the mining author"
+  },
+  "status.miningSettings.input.extradata.label": {
+    "defaultMessage": "extradata"
+  },
+  "status.miningSettings.input.extradata.hint": {
+    "defaultMessage": "extra data for mined blocks"
+  },
+  "status.miningSettings.input.gasPrice.label": {
+    "defaultMessage": "minimal gas price"
+  },
+  "status.miningSettings.input.gasPrice.hint": {
+    "defaultMessage": "the minimum gas price for mining"
+  },
+  "status.miningSettings.input.gasFloor.label": {
+    "defaultMessage": "gas floor target"
+  },
+  "status.miningSettings.input.gasFloor.hint": {
+    "defaultMessage": "the gas floor target for mining"
+  },
+  "status.status.title.bestBlock": {
+    "defaultMessage": "best block"
+  },
+  "status.status.title.peers": {
+    "defaultMessage": "peers"
+  },
+  "status.status.title.hashRate": {
+    "defaultMessage": "hash rate"
+  },
+  "status.status.hashrate": {
+    "defaultMessage": "{hashrate} H/s"
+  },
+  "status.status.title.node": {
+    "defaultMessage": "Node"
+  },
+  "status.status.title.network": {
+    "defaultMessage": "network settings"
+  },
+  "status.status.input.chain": {
+    "defaultMessage": "chain"
+  },
+  "status.status.input.rpcEnabled": {
+    "defaultMessage": "rpc enabled"
+  },
+  "status.status.input.yes": {
+    "defaultMessage": "yes"
+  },
+  "status.status.input.no": {
+    "defaultMessage": "no"
+  },
+  "status.status.input.port": {
+    "defaultMessage": "network port"
+  },
+  "status.status.input.rpcInterface": {
+    "defaultMessage": "rpc interface"
+  },
+  "status.status.input.rpcPort": {
+    "defaultMessage": "rpc port"
+  },
+  "status.status.input.enode": {
+    "defaultMessage": "enode"
+  },
+  "peers.acceptNonReserved.label": {
+    "defaultMessage": "Accept non-reserved"
+  },
+  "peers.dropNonReserved.label": {
+    "defaultMessage": "Drop non-reserved"
+  },
+  "peers.addReserved.label": {
+    "defaultMessage": "Add reserved"
+  },
+  "peers.removeReserved.label": {
+    "defaultMessage": "Remove reserved"
+  },
+  "status.peers.title": {
+    "defaultMessage": "network peers"
+  },
+  "status.peers.table.header.id": {
+    "defaultMessage": "ID"
+  },
+  "status.peers.table.header.remoteAddress": {
+    "defaultMessage": "Remote Address"
+  },
+  "status.peers.table.header.name": {
+    "defaultMessage": "Name"
+  },
+  "status.peers.table.header.ethHeader": {
+    "defaultMessage": "Header (ETH)"
+  },
+  "status.peers.table.header.ethDiff": {
+    "defaultMessage": "Difficulty (ETH)"
+  },
+  "status.peers.table.header.caps": {
+    "defaultMessage": "Capabilities"
+  },
+  "peers.form.label": {
+    "defaultMessage": "Peer enode URL"
+  },
+  "peers.form.action.label": {
+    "defaultMessage": "{add, select, true {Add} false {}}{remove, select, true {Remove} false {}}"
+  },
+  "peers.form.cancel.label": {
+    "defaultMessage": "Cancel"
+  },
+  "peers.acceptNonReservedPeers.success": {
+    "defaultMessage": "Accepting non-reserved peers"
+  },
+  "peers.dropNonReservedPeers.success": {
+    "defaultMessage": "Dropping non-reserved peers"
+  },
+  "peers.form.action.success": {
+    "defaultMessage": "Successfully {add, select, true {added} false {}}{remove, select, true {removed} false {}} a reserved peer"
+  },
+  "status.title": {
+    "defaultMessage": "Status"
+  },
+  "vaults.button.add": {
+    "defaultMessage": "create vault"
+  },
+  "vaults.title": {
+    "defaultMessage": "Vault Management"
+  },
+  "vaults.empty": {
+    "defaultMessage": "There are currently no vaults to display."
+  },
+  "vaults.button.accounts": {
+    "defaultMessage": "accounts"
+  },
+  "vaults.button.edit": {
+    "defaultMessage": "edit"
+  },
+  "vaults.button.close": {
+    "defaultMessage": "close"
+  },
+  "vaults.button.open": {
+    "defaultMessage": "open"
+  },
+  "wallet.confirmations.none": {
+    "defaultMessage": "No transactions needs confirmation right now."
+  },
+  "wallet.confirmations.buttons.confirmAs": {
+    "defaultMessage": "Confirm As..."
+  },
+  "wallet.confirmations.buttons.revokeAs": {
+    "defaultMessage": "Revoke As..."
+  },
+  "wallet.confirmations.tooltip.confirmed": {
+    "defaultMessage": "Confirmed by {number}/{required} owners"
+  },
+  "wallet.details.title": {
+    "defaultMessage": "Details"
+  },
+  "wallet.details.requiredOwners": {
+    "defaultMessage": "This wallet requires at least {owners} to validate any action (transactions, modifications)."
+  },
+  "wallet.details.requiredOwnersNumber": {
+    "defaultMessage": "{number} {numberValue, plural, one {owner} other {owners}}"
+  },
+  "wallet.transactions.title": {
+    "defaultMessage": "Transactions"
+  },
+  "wallet.transactions.none": {
+    "defaultMessage": "No transactions has been sent."
+  },
+  "wallet.details.spent": {
+    "defaultMessage": "{spent} has been spent today, out of {limit} set as the daily limit, which has been reset on {date}"
+  },
+  "wallet.buttons.transfer": {
+    "defaultMessage": "transfer"
+  },
+  "wallet.buttons.forget": {
+    "defaultMessage": "forget"
+  },
+  "wallet.buttons.edit": {
+    "defaultMessage": "edit"
+  },
+  "wallet.buttons.settings": {
+    "defaultMessage": "settings"
+  },
+  "wallet.title": {
+    "defaultMessage": "Wallet Management"
+  },
+  "web.requestToken": {
+    "defaultMessage": "Requesting access token..."
+  }
+}
